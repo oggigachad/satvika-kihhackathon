@@ -15,11 +15,11 @@ django-cors-headers==4.9.0
 PyJWT==2.10.1
 
 # Google OAuth (kept for Google Sign-In)
-google-auth==2.48.0
-google-auth-httplib2==0.2.1
-google-api-python-client==2.187.0
-google-auth-oauthlib==1.2.3
-googleapis-common-protos==1.72.0
+google-auth>=2.15.0,<2.42.0
+google-auth-httplib2>=0.2.0
+google-api-python-client>=2.100.0
+google-auth-oauthlib>=1.0.0,<2.0.0
+googleapis-common-protos>=1.56.0
 
 # PDF Generation
 reportlab==4.4.4
