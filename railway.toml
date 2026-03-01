@@ -1,0 +1,5 @@
+[build]
+rootDirectory = "klh"
+
+[deploy]
+startCommand = "gunicorn nutrition_label_generator.wsgi --bind 0.0.0.0:$PORT --workers 2"
